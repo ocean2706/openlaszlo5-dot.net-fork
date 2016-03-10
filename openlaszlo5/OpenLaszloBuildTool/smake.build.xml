@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<build>
+<!-- 
+this file is intended to replace ant build.xml or other build system equivalent
+introducing concepts like "deliverable"
+-->
+  <deliverables>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+    <deliverable name="" ></deliverable>
+  </deliverables>
+</build>
