@@ -1,0 +1,72 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmakeBuildTool", "OpenLaszloBuildTool\SmakeBuildTool.csproj", "{4DA6AFE9-A231-47A0-A611-23D3F4664E9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpCC", "CsharpCC\CsharpCC.csproj", "{7330F3F3-D7E8-4478-A179-4FDB62FF263A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build-tools", "build-tools", "{4EB854B9-08EC-48C3-AC2B-04D831452BA7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "web-inf", "web-inf", "{6D1B4B88-DB82-42DC-A23A-3882A962007A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3d-party", "3d-party", "{94005DC7-4035-4848-8CA9-BC4A60D92048}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "credits", "credits", "{4C5A1581-0FC9-4250-A2C5-F6EDE28FBAA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "demos", "demos", "{F5FE7BC6-9D5C-4528-8633-7E3FB2BE29E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{3EBBC29A-084E-44A8-A59E-25F9533A5F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "examples", "examples", "{06286D7F-B23F-46E2-B44C-AC034E902DBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "installer", "installer", "{E736A6E4-32A1-483B-A0A5-684FB6DCE973}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "laszlo-explorer", "laszlo-explorer", "{C67453FA-E943-4BCC-8A31-F941481D298B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "laszlo-in-ten-minutes", "laszlo-in-ten-minutes", "{B4E5B403-461F-4198-842E-353B54597353}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lps", "lps", "{329E7C61-02EB-4336-AF40-5492719C289E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "my-apps", "my-apps", "{84656539-7088-4A80-91F9-E01DEA8F736A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "server", "server", "{378123B9-64AC-42FE-A929-75DA19ACE7D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{66838F8A-D923-4E1A-BE9C-04DCC43A4544}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "original-java", "original-java", "{83D30A2F-9D40-4DEF-B776-DB8E0EF7059C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\openlaszlo5-java-fork\lps-5.0.x\build.properties = ..\..\openlaszlo5-java-fork\lps-5.0.x\build.properties
+		..\..\openlaszlo5-java-fork\lps-5.0.x\build.xml = ..\..\openlaszlo5-java-fork\lps-5.0.x\build.xml
+		..\..\openlaszlo5-java-fork\lps-5.0.x\laszlo.ico = ..\..\openlaszlo5-java-fork\lps-5.0.x\laszlo.ico
+		..\..\openlaszlo5-java-fork\lps-5.0.x\LICENSE.rtf = ..\..\openlaszlo5-java-fork\lps-5.0.x\LICENSE.rtf
+		..\..\openlaszlo5-java-fork\lps-5.0.x\repository-info.xml = ..\..\openlaszlo5-java-fork\lps-5.0.x\repository-info.xml
+		..\..\openlaszlo5-java-fork\lps-5.0.x\running-my-apps.html = ..\..\openlaszlo5-java-fork\lps-5.0.x\running-my-apps.html
+		..\..\openlaszlo5-java-fork\lps-5.0.x\uninst.ico = ..\..\openlaszlo5-java-fork\lps-5.0.x\uninst.ico
+		..\..\openlaszlo5-java-fork\lps-5.0.x\versions.xml = ..\..\openlaszlo5-java-fork\lps-5.0.x\versions.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DA6AFE9-A231-47A0-A611-23D3F4664E9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DA6AFE9-A231-47A0-A611-23D3F4664E9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DA6AFE9-A231-47A0-A611-23D3F4664E9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DA6AFE9-A231-47A0-A611-23D3F4664E9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7330F3F3-D7E8-4478-A179-4FDB62FF263A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7330F3F3-D7E8-4478-A179-4FDB62FF263A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7330F3F3-D7E8-4478-A179-4FDB62FF263A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7330F3F3-D7E8-4478-A179-4FDB62FF263A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4DA6AFE9-A231-47A0-A611-23D3F4664E9F} = {4EB854B9-08EC-48C3-AC2B-04D831452BA7}
+		{7330F3F3-D7E8-4478-A179-4FDB62FF263A} = {4EB854B9-08EC-48C3-AC2B-04D831452BA7}
+	EndGlobalSection
+EndGlobal
